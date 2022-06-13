@@ -1,0 +1,585 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.nav ul {
+  display: flex;
+  justify-content:flex-start;
+  padding-left: 88px;
+  height: 75px;
+  background-color: black;
+}
+.nav ul li {
+  list-style-type: none;
+  margin: 22px 15px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(169, 164, 164);
+  font-size: 20px;
+}
+.head{
+  display: flex;
+}
+#page {
+  font-size: 32px;
+  font-weight: lighter;
+}
+#page {
+  font-size: 32px;
+   margin-top: 30px;
+  margin-left: 105px;
+  font-weight: lighter;
+}
+#text {
+  margin-left: 8px;
+  margin-top:36px;
+  font-size: 22px;
+  color: rgb(169, 164, 164);
+}
+hr {
+  border: 1px solid rgb(241, 237, 237);
+  background: rgb(241, 237, 237);
+  margin-top: 10px;
+  margin-left: 104px;
+  margin-right: 108px;
+}
+.cont1 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cont2 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.cont3 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center; 
+}
+.one {
+  width: 400px;
+  height: 390px;
+  margin-right: 35px;
+} 
+img{
+  width:400px;
+  height:280px;
+}
+.one h2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+#para {
+  font-size: 17px;
+}
+#hori {
+  border: 1px solid rgb(241, 237, 237);
+  background: rgb(241, 237, 237);
+}
+.copy {
+  margin-top: 55px;
+  margin-left: 105px;
+}
+@media screen and (max-width:360px){
+  .nav ul {
+  display: block;
+  width:100%;
+  padding-left: 88px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.nav ul li {
+  margin: 22px 40px;
+}
+li a {
+  
+  font-size: 13px;
+}
+.head{
+  display: flex;
+  width:100%;
+}
+#page {
+  font-size: 13px;
+  margin-left: 20px;
+}
+#text {
+  font-size: 11px;
+  margin-left: 8px;
+}
+hr {
+ width:90%;
+  margin-left: 8px;
+
+}
+.cont1 {
+  display:block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.cont2 {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.cont3 {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.one {
+  width: 96%;
+  height: 280px;
+}
+img{
+  width:96%;
+  height:160px;
+}
+.one h2 {
+  font-size: 13px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+#para {
+  font-size: 13px;
+  width:90%;
+}
+#hori {
+  width:90%;
+  margin-left: 8px;
+}
+.copy {
+  font-size:13px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width:361px) and (max-width:480px){
+  .nav ul {
+  display: block;
+  width:100%;
+  padding-left: 88px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.nav ul li {
+  margin: 22px 109px;
+}
+li a {
+  
+  font-size: 15px;
+}
+.head{
+  display: flex;
+  width:100%;
+}
+#page {
+  font-size: 15px;
+  margin-left: 20px;
+}
+#text {
+  font-size: 11px;
+  margin-left: 8px;
+  margin-top:33px;
+}
+hr {
+ width:98%;
+  margin-left: 8px;
+
+}
+.cont1 {
+  display:block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.cont2 {
+  display: block;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.cont3 {
+  display: block;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.one {
+  width: 96%;
+  height: 310px;
+}
+img{
+  width:96%;
+  height:160px;
+}
+.one h2 {
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+#para {
+  font-size: 15px;
+  width:90%;
+}
+#hori {
+ width:98%;
+  margin-left: 8px;
+}
+.copy {
+  font-size:14px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width:481px) and (max-width:768px){
+  .nav ul {
+  display: flex;
+  width:100%;
+  padding-left: 25px;
+  height: 60px;
+  overflow: hidden;
+  background-color: black;
+}
+.nav ul li {
+  margin: 22px 15px;
+}
+li a {
+  font-size: 16px;
+}
+.head{
+  display: flex;
+  width:100%;
+}
+#page {
+  font-size: 16px;
+  margin-left: 38px;
+}
+#text {
+  font-size: 12px;
+  margin-left: 8px;
+  margin-top:33px;
+}
+hr {
+ width:96%;
+  margin-left: 19px;
+
+}
+.cont1 {
+  display:flex;
+  width:98%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.cont2 {
+  display: flex;
+   width:98%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.cont3 {
+  display: flex;
+   width:98%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.one {
+  width: 96%;
+  height: 310px;
+  margin-right:12px;
+}
+img{
+  width:96%;
+  height:160px;
+}
+.one h2 {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+#para {
+  font-size: 14px;
+  width:90%;
+}
+#hori {
+ width:96%;
+  margin-left: 18px;
+}
+.copy {
+  font-size:14px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+  .nav ul {
+  display: flex;
+  width:100%;
+  padding-left: 25px;
+  height: 60px;
+  overflow: hidden;
+  background-color: black;
+}
+.nav ul li {
+  margin: 22px 15px;
+}
+li a {
+  font-size: 17px;
+}
+.head{
+  display: flex;
+  width:100%;
+}
+#page {
+  font-size: 17px;
+  margin-left: 38px;
+}
+#text {
+  font-size: 13px;
+  margin-left: 8px;
+  margin-top:33px;
+}
+hr {
+ width:95%;
+  margin-left: 21px;
+
+}
+.cont1 {
+  display:flex;
+  width:96%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.cont2 {
+  display: flex;
+   width:96%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.cont3 {
+  display: flex;
+   width:96%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.one {
+  width: 96%;
+  height: 312px;
+  margin-right:12px;
+}
+img{
+  width:96%;
+  height:180px;
+}
+.one h2 {
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+#para {
+  font-size: 17px;
+  width:90%;
+}
+#hori {
+ width:95%;
+  margin-left: 14px;
+}
+.copy {
+  font-size:16px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+  .nav ul {
+  display: flex;
+  width:100%;
+  padding-left: 25px;
+  height: 60px;
+  overflow: hidden;
+  background-color: black;
+}
+.nav ul li {
+  margin: 22px 15px;
+}
+li a {
+  font-size: 15px;
+}
+.head{
+  display: flex;
+  width:100%;
+}
+#page {
+  font-size: 17px;
+  margin-left: 38px;
+}
+#text {
+  font-size: 13px;
+  margin-left: 8px;
+  margin-top:33px;
+}
+hr {
+ width:96%;
+  margin-left: 21px;
+
+}
+.cont1 {
+  display:flex;
+  width:96%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.cont2 {
+  display: flex;
+   width:96%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.cont3 {
+  display: flex;
+   width:96%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.one {
+  width: 96%;
+  height: 312px;
+  margin-right:12px;
+}
+img{
+  width:96%;
+  height:180px;
+}
+.one h2 {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+#para {
+  font-size: 16px;
+  width:90%;
+}
+#hori {
+ width:96%;
+  margin-left: 14px;
+}
+.copy {
+  font-size:16px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width:1201px){
+  .nav ul {
+  display: flex;
+  width:100%;
+  padding-left: 25px;
+  height: 60px;
+  overflow: hidden;
+  background-color: black;
+}
+.nav ul li {
+  margin: 22px 15px;
+}
+li a {
+  font-size: 17px;
+}
+.head{
+  display: flex;
+  width:100%;
+}
+#page {
+  font-size: 18px;
+  margin-left: 38px;
+}
+#text {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top:33px;
+}
+hr {
+ width:96%;
+  margin-left: 21px;
+
+}
+.cont1 {
+  display:flex;
+  width:96%;
+  margin-top: 20px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+  
+}
+.cont2 {
+  display: flex;
+   width:96%;
+  margin-top: 20px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+}
+.cont3 {
+  display: flex;
+   width:96%;
+  margin-top: 20px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+}
+.one {
+  width: 96%;
+  height: 326px;
+  margin-right:12px;
+}
+img{
+  width:96%;
+  height:218px;
+}
+.one h2 {
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+#para {
+  font-size: 17px;
+  width:90%;
+}
+#hori {
+ width:96%;
+  margin-left: 14px;
+}
+.copy {
+  font-size:17px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+}
